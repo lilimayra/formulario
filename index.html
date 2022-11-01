@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuestionario</title>
+    <style>
+      body {
+        background-color: #a3b18a;
+        margin: 3rem;
+      }
+
+      form {
+        background-color: #588157;
+        color: white;
+        font-weight: bolder;
+        padding: 2rem;
+        margin: 9rem;
+      }
+
+      p {
+        font-style: oblique;
+      }
+
+      .color {
+        background-color: #dad7cd;
+        color: black;
+      }
+
+      .ancho {
+        width: 10rem;
+      }
+
+      .separacion {
+        margin-top: 2rem;
+      }
+
+      .centro {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Cuestionario</legend>
+            <p>¿Cuál de los métodos utilizaste para hacer la reserva?</p>
+            <p>
+              <label>
+                <input class="color" type="checkbox" value="0" />
+                Recomendación
+              </label>
+              <label>
+                <input class="color" type="checkbox" value="1" />
+                Internet
+              </label>
+            </p>
+            <p>¿Eres más de montaña o de playa?</p>
+            <p>
+              <label>
+                <input class="color" type="checkbox" value="0" />
+                Montaña
+              </label>
+              <label>
+                <input class="color" type="checkbox" value="1" />
+                Playa
+              </label>
+            </p>
+            <p>¿Qué medio de transporte prefieres para viajar?</p>
+            <p>
+              <label>
+                <input class="color" type="checkbox" value="0" />
+                Avión
+              </label>
+              <label>
+                <input class="color" type="checkbox" value="1" />
+                Tren
+              </label>
+              <label>
+                <input class="color" type="checkbox" value="1" />
+                Autobús
+              </label>
+              <label>
+                <input class="color" type="checkbox" value="1" />
+                Coche
+              </label>
+            </p>
+            <p class="separacion">
+              <label>
+                Nombre y Apellido
+                <input class="color ancho" type="text" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Número de telefono
+                <input class="color ancho" type="text" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Ciudad de residencia
+                <input class="color ancho" type="text" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Correo
+                <input class="color ancho" type="email" />
+              </label>
+            </p>
+            <p>
+              Estoy de acuerdo con los Términos de Uso y Políticas de Privacidad
+            </p>
+            <p>
+              <label>
+                <input type="radio" value="0" name="aceptar" />
+                Estoy de acuerdo
+              </label>
+            </p>
+            <p class="centro">
+              <button type="submit">Enviar Encuesta</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
